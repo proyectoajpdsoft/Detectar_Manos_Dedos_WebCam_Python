@@ -3,6 +3,8 @@
 import cv2
 import mediapipe as medP
 
+# Cambio para probar Git
+
 # Instanciamos la librería mediapipe con la IA para detectar los dedos levantados
 mpManos = medP.solutions.hands
 manos = mpManos.Hands(min_detection_confidence=0.5, min_tracking_confidence=0.5)
